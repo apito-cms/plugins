@@ -1,0 +1,19 @@
+{
+  "name": "s3-file-upload",
+  "icon": "https://app.apito.io/static/pages/console/settings/extension/aws-lambda.svg",
+  "description": "S3 File Upload Support",
+  "type": 2,
+  "role": "",
+  "configs": {
+    "function_config" : {
+      "env_vars" : [
+        {
+          "key": "S3_CDN_URL",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "exported_variable": "S3FileUpload",
+  "enable": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "function-aws-lambda",
+  "icon": "https://app.apito.io/static/pages/console/settings/extension/aws-lambda.svg",
+  "description": "Function Execution via AWS Lambda",
+  "type": 1,
+  "role": "",
+  "configs": {
+    "function_config" : {
+      "env_vars" : [
+        {
+          "key": "AWS_SECRET_KEY",
+          "value": ""
+        },
+        {
+          "key": "AWS_ACCESS_KEY",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "exported_variable": "AWSLambda",
+  "enable": true
+}
